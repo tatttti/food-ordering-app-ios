@@ -84,12 +84,6 @@ open FoodOrderingApp.xcodeproj
 ### Правила работы
 
 - Все изменения выполняются только в `development`.
-- Каждая задача — отдельная feature‑ветка:
-  - feature/ui
-  - feature/coredata
-  - feature/tests
-  - feature/map
-  - feature/<task-name>
 - После завершения работы создаётся Pull Request → Review → Merge.
 
 ### Защита веток
