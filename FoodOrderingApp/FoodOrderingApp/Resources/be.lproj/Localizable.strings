@@ -1,0 +1,263 @@
+//
+//  Localizable.strings
+//  FoodOrderingApp
+//  Belarusian
+//
+
+// MARK: - Common
+"common_ok" = "Добра";
+"common_cancel" = "Адмена";
+"common_done" = "Гатова";
+"common_close" = "Закрыць";
+"common_yes" = "Так";
+"common_no" = "Не";
+
+// MARK: - Registration
+"reg_register" = "Зарэгістравацца";
+"reg_create_account" = "Стварыць акаўнт";
+"reg_personal_data" = "Асабістыя дадзеныя";
+"reg_name" = "Імя";
+"reg_email" = "Email";
+"reg_phone" = "Тэлефон";
+"reg_password" = "Пароль";
+"reg_confirm_password" = "Пацвердзіце пароль";
+"reg_already_have_account" = "Ужо ёсць акаўнт?";
+"reg_login" = "Увайсці";
+"reg_success" = "Рэгістрацыя прайшла паспяхова! Цяпер вы можаце ўвайсці.";
+"reg_password_min_length" = "Пароль павінен утрымліваць мінімум 6 сімвалаў";
+"reg_passwords_not_match" = "Паролі не супадаюць";
+"reg_invalid_email" = "Няправільны email адрас";
+
+// MARK: - Login
+"login_title" = "З вяртаннем";
+"login_enter_credentials" = "Увядзіце вашы дадзеныя";
+"login_email" = "Email адрас";
+"login_forgot_password" = "Забылі пароль?";
+"login_error" = "Няправільны email ці пароль";
+
+// MARK: - Restaurants
+"restaurants_title" = "Рэстараны";
+"restaurants_search" = "Пошук рэстаранаў...";
+"restaurants_all" = "Усе";
+"restaurants_cuisine" = "Кухня";
+"restaurants_distance_km" = "км";
+"restaurants_rating" = "Рэйтынг";
+"restaurants_hours" = "Гадзіны працы";
+"restaurants_closed" = "Закрыта";
+"restaurants_opens_at" = "Адкрываецца ў";
+
+// MARK: - Restaurant Names
+"restaurant_litviny" = "Літвіны";
+"restaurant_litviny_alt" = "Літвіны";
+"restaurant_vasilki" = "Васількі";
+
+// MARK: - Menu
+"menu_title" = "Меню";
+"menu_add_to_cart" = "У кошык";
+"menu_in_cart" = "У кошыку";
+"menu_categories" = "Катэгорыі";
+"menu_available" = "Даступна";
+"menu_not_available" = "Недаступна";
+
+// MARK: - Cart
+"cart_title" = "Кошык";
+"cart_empty" = "Кошык пусты";
+"cart_add_dishes" = "Дадайце стравы з меню рэстарана";
+"cart_pickup" = "Самавываз";
+"cart_delivery" = "Дастаўка";
+"cart_delivery_address" = "Адрас дастаўкі";
+"cart_address_placeholder" = "Мінск, пр-т Незалежнасці, 89, кв 45";
+"cart_address_example" = "Прыклад: Мінск, пр-т Пераможцаў, 119, кв 45";
+"cart_comment" = "Каментар (неабавязкова)";
+"cart_payment_method" = "Спосаб аплаты";
+"cart_total" = "Разам";
+"cart_checkout" = "Аформіць заказ";
+"cart_processing" = "Апрацоўка...";
+
+// MARK: - Payment
+"payment_select" = "Абярыце спосаб аплаты";
+"payment_online" = "💳 Онлайн карткай";
+"payment_erip" = "🏦 ЕРІП";
+"payment_terminal" = "📱 Тэрмінал";
+"payment_cash" = "💵 Наяўныя";
+"payment_card_number" = "Нумар карткі";
+"payment_card_expiry" = "ММ/ГГ";
+"payment_card_cvc" = "CVC";
+"payment_card_holder" = "Імя ўладальніка";
+
+// MARK: - Order
+"orders_title" = "Мае заказы";
+"orders_active" = "Актыўныя";
+"orders_history" = "Гісторыя";
+"orders_number" = "Заказ #";
+"orders_date" = "Дата";
+"orders_status" = "Статус";
+"orders_details" = "Дэталі заказа";
+"orders_cancel" = "Адмяніць заказ";
+"orders_cancel_confirm" = "Вы ўпэўнены, што хочаце адмяніць гэты заказ?";
+"orders_created" = "Заказ паспяхова створаны!";
+"orders_failed" = "Не атрымалася стварыць заказ";
+
+// MARK: - Order Status
+"status_pending" = "Чакае пацверджання";
+"status_confirmed" = "Пацверджаны";
+"status_preparing" = "Рыхтуецца";
+"status_delivering" = "Дастаўляецца";
+"status_delivered" = "Дастаўлены";
+"status_cancelled" = "Адменены";
+
+// MARK: - Profile
+"profile_title" = "Профіль";
+"profile_member_since" = "Удзельнік з";
+"profile_active_orders" = "Актыўных заказаў";
+"profile_total_orders" = "Усяго заказаў";
+"profile_total_spent" = "Выдаткавана ўсяго";
+"profile_about" = "Пра сэрвіс";
+"profile_terms" = "Карыстальніцкае пагадненне";
+"profile_rate" = "Ацаніць праграму";
+"profile_support" = "Падтрымка";
+"profile_logout" = "Выйсці";
+"profile_logout_confirm" = "Вы ўпэўнены, што хочаце выйсці з акаўнта?";
+
+// MARK: - Map
+"map_title" = "Карта";
+"map_nearest" = "Бліжэйшы рэстаран";
+"map_location_unavailable" = "Не атрымалася вызначыць ваша месцазнаходжанне";
+"map_nearest_found" = "Бліжэйшы рэстаран знойдзены:";
+"map_open_in_maps" = "Адкрыць у Apple Maps";
+"map_distance" = "Адлегласць ад вас";
+
+// MARK: - Receipt
+"receipt_order_confirmed" = "Заказ пацверджаны!";
+"receipt_thank_you" = "Дзякуй за ваш заказ";
+"receipt_title" = "Чэк";
+"receipt_order_id" = "Нумар заказа:";
+"receipt_payment_info" = "Інфармацыя аб аплаце";
+"receipt_delivery_info" = "Інфармацыя аб дастаўцы";
+
+// MARK: - Errors
+"error_title" = "Памылка";
+"error_no_connection" = "Няма падключэння да інтэрнэту";
+"error_something_wrong" = "Нешта пайшло не так";
+"error_try_again" = "Паспрабаваць зноў";
+
+// MARK: - Cuisine
+"cuisine_belarusian" = "Беларуская";
+
+// MARK: - Dish Categories
+"category_main_dishes" = "Гарачыя стравы";
+"category_soups" = "Суп";
+"category_appetizers" = "Закускі";
+"category_desserts" = "Дэсерты";
+"category_drinks" = "Напоі";
+"category_pancakes" = "Бліны";
+"category_salads" = "Салаты";
+
+// MARK: - Dishes (Belarusian)
+"dish_draniki" = "Дранікі";
+"dish_draniki_desc" = "Традыцыйныя дранікі са смятанай";
+"dish_kolduny" = "Калдуны з мясам";
+"dish_kolduny_desc" = "Бульбяныя калдуны з мясной начынкай";
+"dish_borsh" = "Боршч";
+"dish_borsh_desc" = "Наварысты боршч з мясам";
+"dish_vereshchaka" = "Верашчака";
+"dish_vereshchaka_desc" = "Традыцыйная пахлёбка з рэбрышкамі";
+"dish_syrniki" = "Сырнікі";
+"dish_syrniki_desc" = "Сырнікі са смятанай";
+"dish_knysh" = "Кныш з сырам";
+"dish_knysh_desc" = "Піражок з сырнай начынкай";
+"dish_solyanka" = "Салянка";
+"dish_solyanka_desc" = "Салянка мясная";
+"dish_meduha" = "Медуха";
+"dish_meduha_desc" = "Традыцыйны мядовай напой";
+"dish_kiev_cutlet" = "Катлета па-кіеўску";
+"dish_kiev_cutlet_desc" = "Курыная катлета з маслам унутры";
+"dish_kompot" = "Кампот";
+"dish_kompot_desc" = "Кампот з сухафруктаў";
+"dish_draniki_gribi" = "Дранікі з грыбамі";
+"dish_draniki_gribi_desc" = "Дранікі з грыбной падлівай";
+"dish_bliny_myaso" = "Блінчыкі з мясам";
+"dish_bliny_myaso_desc" = "Блінчыкі з мясным фаршам";
+"dish_cezar" = "Цэзар з курыцай";
+"dish_cezar_desc" = "Класічны Цэзар з курыцай";
+"dish_mors" = "Морс журавінавы";
+"dish_mors_desc" = "Асвяжальны журавінавы морс";
+"dish_utka" = "Качыная грудка";
+"dish_utka_desc" = "Качыная грудка з журавінавым соусам";
+"dish_machanka" = "Мачанка";
+"dish_machanka_desc" = "Свініна ў смятанным соусе";
+"dish_krambambulya" = "Крамбамбуля";
+"dish_krambambulya_desc" = "Алкагольны напой на мёдзе";
+"dish_salo" = "Сала";
+"dish_salo_desc" = "Дамашняе сала з часнаком";
+"dish_julien" = "Жульен";
+"dish_julien_desc" = "Грыбны жульен у смятаным соусе";
+"dish_myaso" = "Мяса па-магнацку";
+"dish_myaso_desc" = "Свініна з чарнасливам";
+"dish_medovik" = "Мядовік";
+"dish_medovik_desc" = "Мядовы торт";
+"dish_hrenovuha" = "Хрэнавуха";
+"dish_hrenovuha_desc" = "Настойка на хрэне";
+"dish_bliny_tvorog" = "Блінчыкі з тварагом";
+"dish_bliny_tvorog_desc" = "Блінчыкі з тварожнай начынкай";
+"dish_grecheskiy" = "Грэчаскі салат";
+"dish_grecheskiy_desc" = "Салат з фетай і аліўкамі";
+"dish_napoleon" = "Напалеон";
+"dish_napoleon_desc" = "Класічны торт Напалеон";
+"dish_limonad" = "Ліманад";
+"dish_limonad_desc" = "Дамашні ліманад з мятай";
+"dish_semga" = "Стэйк з сёмгі";
+"dish_semga_desc" = "Стэйк сёмгі з гароднінай";
+"dish_bliny_semga" = "Блінчыкі з сёмгай";
+"dish_bliny_semga_desc" = "Блінчыкі са слабасоленай сёмгай";
+"dish_tunets" = "Салат з тунцом";
+"dish_tunets_desc" = "Салат з кансерваваным тунцом";
+"dish_ptichye_moloko" = "Птушынае малако";
+"dish_ptichye_moloko_desc" = "Суфлейны торт";
+"dish_smuzi" = "Смузі ягадны";
+"dish_smuzi_desc" = "Смузі з свежых ягад";
+"dish_sup_pure" = "Суп-пюрэ грыбны";
+"dish_sup_pure_desc" = "Нежны суп з белых грыбоў";
+"dish_svinina" = "Свініна па-дамашняму";
+"dish_svinina_desc" = "Запечаная свініна з бульбай";
+"dish_pancake" = "Панкейкі";
+"dish_pancake_desc" = "Амерыканскія панкейкі з кляновым сіропам";
+"dish_mors_brusnika" = "Морс бруснічны";
+"dish_mors_brusnika_desc" = "Асвяжальны бруснічны морс";
+"dish_brusketta" = "Брускета";
+"dish_brusketta_desc" = "Брускета з дамашняй бужэнінай";
+"dish_kvas" = "Квас дамашні";
+"dish_kvas_desc" = "Натуральны дамашні квас";
+"dish_cheesecake" = "Чызкейк";
+"dish_cheesecake_desc" = "Нью-Ёрк чызкейк";
+// Дополнительные ключи для новых строк
+"welcome_subtitle" = "Дастаўка беларускай кухні";
+"restaurant_title" = "Рэстаран";
+"restaurant_detail" = "Рэстаран";
+"restaurants_loading" = "Загрузка рэстаранаў...";
+"restaurants_not_found" = "Рэстараны не знойдзены";
+"restaurants_try_again" = "Паспрабуйце змяніць параметры пошуку";
+"order_status" = "Статус заказа";
+"delivery_address" = "Адрас дастаўкі";
+"orders_no_active" = "Няма актыўных заказаў";
+"orders_no_history" = "Гісторыя заказаў пустая";
+"orders_type" = "Тып заказаў";
+"payment_method" = "Спосаб аплаты";
+"receipt_total" = "Разам да аплаты:";
+"cart_pickup_from" = "Самавываз з рэстарана:";
+"currency_rub" = "₽";
+"profile_not_authorized" = "Не аўтарызаваны";
+"profile_about_subtitle" = "Інфармацыя пра сэрвіс дастаўкі";
+"profile_logout_subtitle" = "Завяршыць сеанс";
+"profile_active_orders" = "Актыўных";
+"profile_total_orders" = "Усяго";
+"profile_total_spent" = "Выдаткавана";
+"error_user_not_authorized" = "Карыстальнік не аўтарызаваны";
+"error_name_empty" = "Увядзіце імя";
+"error_email_empty" = "Увядзіце email";
+"error_password_empty" = "Увядзіце пароль";
+"error_invalid_email" = "Увядзіце карэктны email";
+"error_password_min_length" = "Пароль павінен утрымліваць мінімум 6 сімвалаў";
+"error_passwords_not_match" = "Паролі не супадаюць";
+"error_user_exists" = "Карыстальнік з такім email ужо існуе";
+"reg_success_message" = "Рэгістрацыя прайшла паспяхова! Цяпер вы можаце ўвайсці ў акаўнт.";
