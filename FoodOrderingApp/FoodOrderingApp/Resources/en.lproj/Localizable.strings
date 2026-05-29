@@ -1,0 +1,262 @@
+//
+//  Localizable.strings
+//  FoodOrderingApp
+//  English
+//
+
+// MARK: - Common
+"common_ok" = "OK";
+"common_cancel" = "Cancel";
+"common_done" = "Done";
+"common_close" = "Close";
+"common_yes" = "Yes";
+"common_no" = "No";
+
+// MARK: - Registration
+"reg_register" = "Register";
+"reg_create_account" = "Create Account";
+"reg_personal_data" = "Personal Data";
+"reg_name" = "Name";
+"reg_email" = "Email";
+"reg_phone" = "Phone";
+"reg_password" = "Password";
+"reg_confirm_password" = "Confirm Password";
+"reg_already_have_account" = "Already have an account?";
+"reg_login" = "Login";
+"reg_success" = "Registration successful! You can now login.";
+"reg_password_min_length" = "Password must be at least 6 characters";
+"reg_passwords_not_match" = "Passwords do not match";
+"reg_invalid_email" = "Invalid email address";
+
+// MARK: - Login
+"login_title" = "Welcome Back";
+"login_enter_credentials" = "Enter your credentials";
+"login_email" = "Email Address";
+"login_forgot_password" = "Forgot Password?";
+"login_error" = "Invalid email or password";
+
+// MARK: - Restaurants
+"restaurants_title" = "Restaurants";
+"restaurants_search" = "Search restaurants...";
+"restaurants_all" = "All";
+"restaurants_cuisine" = "Cuisine";
+"restaurants_distance_km" = "km";
+"restaurants_rating" = "Rating";
+"restaurants_hours" = "Hours";
+"restaurants_closed" = "Closed";
+"restaurants_opens_at" = "Opens at";
+// MARK: - Restaurant Names
+"restaurant_litviny" = "Litviny";
+"restaurant_litviny_alt" = "Litviny";
+"restaurant_vasilki" = "Vasilki";
+
+// MARK: - Menu
+"menu_title" = "Menu";
+"menu_add_to_cart" = "Add to Cart";
+"menu_in_cart" = "In Cart";
+"menu_categories" = "Categories";
+"menu_available" = "Available";
+"menu_not_available" = "Not Available";
+
+// MARK: - Cart
+"cart_title" = "Cart";
+"cart_empty" = "Cart is empty";
+"cart_add_dishes" = "Add dishes from restaurant menu";
+"cart_pickup" = "Pickup";
+"cart_delivery" = "Delivery";
+"cart_delivery_address" = "Delivery Address";
+"cart_address_placeholder" = "Minsk, Independence Ave, 89, apt 45";
+"cart_address_example" = "Example: Minsk, Pobediteley Ave, 119, apt 45";
+"cart_comment" = "Comment (optional)";
+"cart_payment_method" = "Payment method";
+"cart_total" = "Total";
+"cart_checkout" = "Checkout";
+"cart_processing" = "Processing...";
+
+// MARK: - Payment
+"payment_select" = "Select payment method";
+"payment_online" = "💳 Online card";
+"payment_erip" = "🏦 ERIP";
+"payment_terminal" = "📱 Terminal";
+"payment_cash" = "💵 Cash";
+"payment_card_number" = "Card number";
+"payment_card_expiry" = "MM/YY";
+"payment_card_cvc" = "CVC";
+"payment_card_holder" = "Card holder name";
+
+// MARK: - Order
+"orders_title" = "My Orders";
+"orders_active" = "Active";
+"orders_history" = "History";
+"orders_number" = "Order #";
+"orders_date" = "Date";
+"orders_status" = "Status";
+"orders_details" = "Order Details";
+"orders_cancel" = "Cancel Order";
+"orders_cancel_confirm" = "Are you sure you want to cancel this order?";
+"orders_created" = "Order created successfully!";
+"orders_failed" = "Failed to create order";
+
+// MARK: - Order Status
+"status_pending" = "Pending";
+"status_confirmed" = "Confirmed";
+"status_preparing" = "Preparing";
+"status_delivering" = "Delivering";
+"status_delivered" = "Delivered";
+"status_cancelled" = "Cancelled";
+
+// MARK: - Profile
+"profile_title" = "Profile";
+"profile_member_since" = "Member since";
+"profile_active_orders" = "Active orders";
+"profile_total_orders" = "Total orders";
+"profile_total_spent" = "Total spent";
+"profile_about" = "About Service";
+"profile_terms" = "Terms of Service";
+"profile_rate" = "Rate App";
+"profile_support" = "Support";
+"profile_logout" = "Logout";
+"profile_logout_confirm" = "Are you sure you want to logout?";
+
+// MARK: - Map
+"map_title" = "Map";
+"map_nearest" = "Nearest Restaurant";
+"map_location_unavailable" = "Could not determine your location";
+"map_nearest_found" = "Nearest restaurant found:";
+"map_open_in_maps" = "Open in Apple Maps";
+"map_distance" = "Distance from you";
+
+// MARK: - Receipt
+"receipt_order_confirmed" = "Order Confirmed!";
+"receipt_thank_you" = "Thank you for your order";
+"receipt_title" = "Receipt";
+"receipt_order_id" = "Order ID:";
+"receipt_payment_info" = "Payment info";
+"receipt_delivery_info" = "Delivery info";
+
+// MARK: - Errors
+"error_title" = "Error";
+"error_no_connection" = "No internet connection";
+"error_something_wrong" = "Something went wrong";
+"error_try_again" = "Try again";
+
+// MARK: - Cuisine
+"cuisine_belarusian" = "Belarusian";
+
+// MARK: - Dish Categories
+"category_main_dishes" = "Main Dishes";
+"category_soups" = "Soups";
+"category_appetizers" = "Appetizers";
+"category_desserts" = "Desserts";
+"category_drinks" = "Drinks";
+"category_pancakes" = "Pancakes";
+"category_salads" = "Salads";
+
+// MARK: - Dishes (English)
+"dish_draniki" = "Draniki";
+"dish_draniki_desc" = "Traditional potato pancakes with sour cream";
+"dish_kolduny" = "Kolduny with meat";
+"dish_kolduny_desc" = "Potato kolduny with meat filling";
+"dish_borsh" = "Borscht";
+"dish_borsh_desc" = "Hearty borscht with meat";
+"dish_vereshchaka" = "Vereshchaka";
+"dish_vereshchaka_desc" = "Traditional Belarusian stew with ribs";
+"dish_syrniki" = "Syrniki";
+"dish_syrniki_desc" = "Cheese pancakes with sour cream";
+"dish_knysh" = "Knysh with cheese";
+"dish_knysh_desc" = "Pastry with cheese filling";
+"dish_solyanka" = "Solyanka";
+"dish_solyanka_desc" = "Meat solyanka soup";
+"dish_meduha" = "Medukha";
+"dish_meduha_desc" = "Traditional honey drink";
+"dish_kiev_cutlet" = "Chicken Kiev";
+"dish_kiev_cutlet_desc" = "Chicken cutlet with butter inside";
+"dish_kompot" = "Kompot";
+"dish_kompot_desc" = "Dried fruit compote";
+"dish_draniki_gribi" = "Draniki with mushrooms";
+"dish_draniki_gribi_desc" = "Potato pancakes with mushroom gravy";
+"dish_bliny_myaso" = "Pancakes with meat";
+"dish_bliny_myaso_desc" = "Thin pancakes with minced meat";
+"dish_cezar" = "Caesar with chicken";
+"dish_cezar_desc" = "Classic Caesar salad with chicken";
+"dish_mors" = "Cranberry mors";
+"dish_mors_desc" = "Refreshing cranberry drink";
+"dish_utka" = "Duck breast";
+"dish_utka_desc" = "Duck breast with cranberry sauce";
+"dish_machanka" = "Machanka";
+"dish_machanka_desc" = "Pork in sour cream sauce";
+"dish_krambambulya" = "Krambambula";
+"dish_krambambulya_desc" = "Honey alcoholic drink";
+"dish_salo" = "Salo";
+"dish_salo_desc" = "Homemade salted pork fat with garlic";
+"dish_julien" = "Julien";
+"dish_julien_desc" = "Mushroom julien in creamy sauce";
+"dish_myaso" = "Magnate style meat";
+"dish_myaso_desc" = "Pork with prunes";
+"dish_medovik" = "Medovik";
+"dish_medovik_desc" = "Honey cake";
+"dish_hrenovuha" = "Khrenovukha";
+"dish_hrenovuha_desc" = "Horseradish infused vodka";
+"dish_bliny_tvorog" = "Pancakes with cottage cheese";
+"dish_bliny_tvorog_desc" = "Thin pancakes with cottage cheese filling";
+"dish_grecheskiy" = "Greek salad";
+"dish_grecheskiy_desc" = "Salad with feta and olives";
+"dish_napoleon" = "Napoleon cake";
+"dish_napoleon_desc" = "Classic Napoleon cake";
+"dish_limonad" = "Lemonade";
+"dish_limonad_desc" = "Homemade lemonade with mint";
+"dish_semga" = "Salmon steak";
+"dish_semga_desc" = "Salmon steak with vegetables";
+"dish_bliny_semga" = "Pancakes with salmon";
+"dish_bliny_semga_desc" = "Pancakes with lightly salted salmon";
+"dish_tunets" = "Tuna salad";
+"dish_tunets_desc" = "Salad with canned tuna";
+"dish_ptichye_moloko" = "Bird's milk cake";
+"dish_ptichye_moloko_desc" = "Souffle cake";
+"dish_smuzi" = "Berry smoothie";
+"dish_smuzi_desc" = "Fresh berry smoothie";
+"dish_sup_pure" = "Mushroom soup puree";
+"dish_sup_pure_desc" = "Creamy porcini mushroom soup";
+"dish_svinina" = "Homestyle pork";
+"dish_svinina_desc" = "Baked pork with potatoes";
+"dish_pancake" = "Pancakes";
+"dish_pancake_desc" = "American pancakes with maple syrup";
+"dish_mors_brusnika" = "Lingonberry mors";
+"dish_mors_brusnika_desc" = "Refreshing lingonberry drink";
+"dish_brusketta" = "Bruschetta";
+"dish_brusketta_desc" = "Bruschetta with homemade ham";
+"dish_kvas" = "Homemade kvass";
+"dish_kvas_desc" = "Traditional kvass";
+"dish_cheesecake" = "Cheesecake";
+"dish_cheesecake_desc" = "New York cheesecake";
+// Дополнительные ключи для новых строк
+"welcome_subtitle" = "Delivery of Belarusian cuisine";
+"restaurant_title" = "Restaurant";
+"restaurant_detail" = "Restaurant";
+"restaurants_loading" = "Loading restaurants...";
+"restaurants_not_found" = "Restaurants not found";
+"restaurants_try_again" = "Try changing your search parameters";
+"order_status" = "Order Status";
+"delivery_address" = "Delivery Address";
+"orders_no_active" = "No active orders";
+"orders_no_history" = "Order history is empty";
+"orders_type" = "Order type";
+"payment_method" = "Payment method";
+"receipt_total" = "Total to pay:";
+"cart_pickup_from" = "Pickup from restaurant:";
+"currency_rub" = "₽";
+"profile_not_authorized" = "Not authorized";
+"profile_about_subtitle" = "Information about delivery service";
+"profile_logout_subtitle" = "End session";
+"profile_active_orders" = "Active";
+"profile_total_orders" = "Total";
+"profile_total_spent" = "Spent";
+"error_user_not_authorized" = "User not authorized";
+"error_name_empty" = "Enter name";
+"error_email_empty" = "Enter email";
+"error_password_empty" = "Enter password";
+"error_invalid_email" = "Enter valid email";
+"error_password_min_length" = "Password must be at least 6 characters";
+"error_passwords_not_match" = "Passwords do not match";
+"error_user_exists" = "User with this email already exists";
+"reg_success_message" = "Registration successful! You can now login to your account.";
