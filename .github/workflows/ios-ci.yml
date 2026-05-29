@@ -1,0 +1,44 @@
+name: iOS CI
+
+on:
+  push:
+    branches: [ main, development ]
+  pull_request:
+    branches: [ main, production ]
+
+jobs:
+  build-and-test:
+    name: Build and Test
+    runs-on: macos-latest
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+      
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode_15.4.app
+      
+      - name: Build project
+        run: |
+           xcodebuild build \
+            -project FoodOrderingApp.xcodeproj \
+            -scheme FoodOrderingApp \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.5' \
+            CODE_SIGNING_ALLOWED=NO
+      - name: Run Unit Tests
+        run: |
+          xcodebuild test \
+            -project FoodOrderingApp.xcodeproj \
+            -scheme FoodOrderingApp \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.5' \
+            -only-testing:FoodOrderingAppTests \
+            CODE_SIGNING_ALLOWED=NO
+      
+      - name: Run UI Tests
+        run: |
+          xcodebuild test \
+            -project FoodOrderingApp.xcodeproj \
+            -scheme FoodOrderingApp \
+            -destination 'platform=iOS Simulator,name=iPhone 15,OS=17.5' \
+            -only-testing:FoodOrderingAppUITests \
+            CODE_SIGNING_ALLOWED=NO
