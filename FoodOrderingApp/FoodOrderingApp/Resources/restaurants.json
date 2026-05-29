@@ -1,0 +1,148 @@
+{
+  "restaurants": [
+    {
+      "id": "litviny1",
+      "nameKey": "restaurant_litviny",
+      "address": "Минск, пр-т Победителей, 119",
+      "latitude": 53.915,
+      "longitude": 27.530,
+      "rating": 4.5,
+      "cuisineKey": "cuisine_belarusian",
+      "imageURL": "litviny",
+      "phone": "+375 44 557-11-11",
+      "workingHours": "11:00 - 23:00",
+      "dishes": [
+        {"nameKey": "dish_draniki", "price": 12.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_desc", "imageURL": "draniki"},
+        {"nameKey": "dish_kolduny", "price": 13.90, "categoryKey": "category_main_dishes", "descKey": "dish_kolduny_desc", "imageURL": "kolduny"},
+        {"nameKey": "dish_borsh", "price": 9.50, "categoryKey": "category_soups", "descKey": "dish_borsh_desc", "imageURL": "borsh"},
+        {"nameKey": "dish_vereshchaka", "price": 15.90, "categoryKey": "category_main_dishes", "descKey": "dish_vereshchaka_desc", "imageURL": "vereshchaka"},
+        {"nameKey": "dish_syrniki", "price": 8.20, "categoryKey": "category_desserts", "descKey": "dish_syrniki_desc", "imageURL": "syrniki"},
+        {"nameKey": "dish_knysh", "price": 7.50, "categoryKey": "category_appetizers", "descKey": "dish_knysh_desc", "imageURL": "knysh"},
+        {"nameKey": "dish_solyanka", "price": 10.90, "categoryKey": "category_soups", "descKey": "dish_solyanka_desc", "imageURL": "solyanka"},
+        {"nameKey": "dish_meduha", "price": 8.00, "categoryKey": "category_drinks", "descKey": "dish_meduha_desc", "imageURL": "meduha"},
+        {"nameKey": "dish_kiev_cutlet", "price": 14.50, "categoryKey": "category_main_dishes", "descKey": "dish_kiev_cutlet_desc", "imageURL": "kiev"},
+        {"nameKey": "dish_kompot", "price": 4.50, "categoryKey": "category_drinks", "descKey": "dish_kompot_desc", "imageURL": "kompot"}
+      ]
+    },
+    {
+      "id": "litviny2",
+      "nameKey": "restaurant_litviny",
+      "address": "Минск, ул. Притыцкого, 156/1 (ТЦ Green city)",
+      "latitude": 53.904,
+      "longitude": 27.437,
+      "rating": 4.6,
+      "cuisineKey": "cuisine_belarusian",
+      "imageURL": "litviny",
+      "phone": "+375 44 519-11-11",
+      "workingHours": "11:00 - 23:00",
+      "dishes": [
+        {"nameKey": "dish_draniki", "price": 12.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_desc", "imageURL": "draniki"},
+        {"nameKey": "dish_kolduny", "price": 13.90, "categoryKey": "category_main_dishes", "descKey": "dish_kolduny_desc", "imageURL": "kolduny"},
+        {"nameKey": "dish_borsh", "price": 9.50, "categoryKey": "category_soups", "descKey": "dish_borsh_desc", "imageURL": "borsh"},
+        {"nameKey": "dish_draniki_gribi", "price": 14.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_gribi_desc", "imageURL": "draniki_gribi"},
+        {"nameKey": "dish_syrniki", "price": 8.20, "categoryKey": "category_desserts", "descKey": "dish_syrniki_desc", "imageURL": "syrniki"},
+        {"nameKey": "dish_meduha", "price": 8.00, "categoryKey": "category_drinks", "descKey": "dish_meduha_desc", "imageURL": "meduha"},
+        {"nameKey": "dish_kiev_cutlet", "price": 14.50, "categoryKey": "category_main_dishes", "descKey": "dish_kiev_cutlet_desc", "imageURL": "kiev"},
+        {"nameKey": "dish_solyanka", "price": 10.90, "categoryKey": "category_soups", "descKey": "dish_solyanka_desc", "imageURL": "solyanka"},
+        {"nameKey": "dish_kvas", "price": 5.00, "categoryKey": "category_drinks", "descKey": "dish_kvas_desc", "imageURL": "kvas"},
+        {"nameKey": "dish_bliny_myaso", "price": 11.90, "categoryKey": "category_pancakes", "descKey": "dish_bliny_myaso_desc", "imageURL": "bliny_myaso"}
+      ]
+    },
+    {
+      "id": "litviny3",
+      "nameKey": "restaurant_litviny_alt",
+      "address": "Минск, ул. Свердлова, 2",
+      "latitude": 53.900,
+      "longitude": 27.554,
+      "rating": 4.7,
+      "cuisineKey": "cuisine_belarusian",
+      "imageURL": "litviny",
+      "phone": "+375 29 119-34-34",
+      "workingHours": "10:00 - 23:00",
+      "dishes": [
+        {"nameKey": "dish_draniki", "price": 12.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_desc", "imageURL": "draniki"},
+        {"nameKey": "dish_borsh", "price": 9.50, "categoryKey": "category_soups", "descKey": "dish_borsh_desc", "imageURL": "borsh"},
+        {"nameKey": "dish_syrniki", "price": 8.20, "categoryKey": "category_desserts", "descKey": "dish_syrniki_desc", "imageURL": "syrniki"},
+        {"nameKey": "dish_machanka", "price": 16.90, "categoryKey": "category_main_dishes", "descKey": "dish_machanka_desc", "imageURL": "machanka"},
+        {"nameKey": "dish_krambambulya", "price": 9.00, "categoryKey": "category_drinks", "descKey": "dish_krambambulya_desc", "imageURL": "krambambulya"},
+        {"nameKey": "dish_salo", "price": 8.90, "categoryKey": "category_appetizers", "descKey": "dish_salo_desc", "imageURL": "salo"},
+        {"nameKey": "dish_julien", "price": 10.90, "categoryKey": "category_appetizers", "descKey": "dish_julien_desc", "imageURL": "julien"},
+        {"nameKey": "dish_myaso", "price": 22.90, "categoryKey": "category_main_dishes", "descKey": "dish_myaso_desc", "imageURL": "myaso"},
+        {"nameKey": "dish_medovik", "price": 7.50, "categoryKey": "category_desserts", "descKey": "dish_medovik_desc", "imageURL": "medovik"},
+        {"nameKey": "dish_hrenovuha", "price": 7.00, "categoryKey": "category_drinks", "descKey": "dish_hrenovuha_desc", "imageURL": "hrenovuha"}
+      ]
+    },
+    {
+      "id": "vasilki1",
+      "nameKey": "restaurant_vasilki",
+      "address": "Минск, пр-т Независимости, 89",
+      "latitude": 53.921,
+      "longitude": 27.595,
+      "rating": 4.7,
+      "cuisineKey": "cuisine_belarusian",
+      "imageURL": "vasilki",
+      "phone": "+375 17 123-45-69",
+      "workingHours": "10:00 - 23:00",
+      "dishes": [
+        {"nameKey": "dish_draniki_gribi", "price": 13.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_gribi_desc", "imageURL": "draniki_gribi"},
+        {"nameKey": "dish_bliny_myaso", "price": 11.90, "categoryKey": "category_pancakes", "descKey": "dish_bliny_myaso_desc", "imageURL": "bliny_myaso"},
+        {"nameKey": "dish_cezar", "price": 11.90, "categoryKey": "category_salads", "descKey": "dish_cezar_desc", "imageURL": "cezar"},
+        {"nameKey": "dish_mors", "price": 6.00, "categoryKey": "category_drinks", "descKey": "dish_mors_desc", "imageURL": "mors"},
+        {"nameKey": "dish_utka", "price": 21.90, "categoryKey": "category_main_dishes", "descKey": "dish_utka_desc", "imageURL": "utka"},
+        {"nameKey": "dish_kiev_cutlet", "price": 14.50, "categoryKey": "category_main_dishes", "descKey": "dish_kiev_cutlet_desc", "imageURL": "kiev"},
+        {"nameKey": "dish_syrniki", "price": 8.20, "categoryKey": "category_desserts", "descKey": "dish_syrniki_desc", "imageURL": "syrniki"},
+        {"nameKey": "dish_solyanka", "price": 10.90, "categoryKey": "category_soups", "descKey": "dish_solyanka_desc", "imageURL": "solyanka"},
+        {"nameKey": "dish_cheesecake", "price": 8.50, "categoryKey": "category_desserts", "descKey": "dish_cheesecake_desc", "imageURL": "cheesecake"},
+        {"nameKey": "dish_kompot", "price": 4.50, "categoryKey": "category_drinks", "descKey": "dish_kompot_desc", "imageURL": "kompot"}
+      ]
+    },
+    {
+      "id": "vasilki2",
+      "nameKey": "restaurant_vasilki",
+      "address": "Минск, ул. Комсомольская, 32",
+      "latitude": 53.905,
+      "longitude": 27.556,
+      "rating": 4.5,
+      "cuisineKey": "cuisine_belarusian",
+      "imageURL": "vasilki",
+      "phone": "+375 17 123-45-67",
+      "workingHours": "10:00 - 23:00",
+      "dishes": [
+        {"nameKey": "dish_draniki", "price": 12.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_desc", "imageURL": "draniki"},
+        {"nameKey": "dish_bliny_tvorog", "price": 9.50, "categoryKey": "category_pancakes", "descKey": "dish_bliny_tvorog_desc", "imageURL": "bliny_tvorog"},
+        {"nameKey": "dish_grecheskiy", "price": 10.50, "categoryKey": "category_salads", "descKey": "dish_grecheskiy_desc", "imageURL": "grecheskiy"},
+        {"nameKey": "dish_napoleon", "price": 8.50, "categoryKey": "category_desserts", "descKey": "dish_napoleon_desc", "imageURL": "napoleon"},
+        {"nameKey": "dish_limonad", "price": 7.00, "categoryKey": "category_drinks", "descKey": "dish_limonad_desc", "imageURL": "limonad"},
+        {"nameKey": "dish_draniki_gribi", "price": 14.50, "categoryKey": "category_main_dishes", "descKey": "dish_draniki_gribi_desc", "imageURL": "draniki_gribi"},
+        {"nameKey": "dish_borsh", "price": 9.50, "categoryKey": "category_soups", "descKey": "dish_borsh_desc", "imageURL": "borsh"},
+        {"nameKey": "dish_syrniki", "price": 8.20, "categoryKey": "category_desserts", "descKey": "dish_syrniki_desc", "imageURL": "syrniki"},
+        {"nameKey": "dish_kvas", "price": 5.00, "categoryKey": "category_drinks", "descKey": "dish_kvas_desc", "imageURL": "kvas"},
+        {"nameKey": "dish_kiev_cutlet", "price": 14.50, "categoryKey": "category_main_dishes", "descKey": "dish_kiev_cutlet_desc", "imageURL": "kiev"}
+      ]
+    },
+    {
+      "id": "vasilki3",
+      "nameKey": "restaurant_vasilki",
+      "address": "Минск, пр-т Независимости, 16",
+      "latitude": 53.898,
+      "longitude": 27.566,
+      "rating": 4.6,
+      "cuisineKey": "cuisine_belarusian",
+      "imageURL": "vasilki",
+      "phone": "+375 17 123-45-68",
+      "workingHours": "10:00 - 23:00",
+      "dishes": [
+        {"nameKey": "dish_semga", "price": 24.90, "categoryKey": "category_main_dishes", "descKey": "dish_semga_desc", "imageURL": "semga"},
+        {"nameKey": "dish_bliny_semga", "price": 13.90, "categoryKey": "category_pancakes", "descKey": "dish_bliny_semga_desc", "imageURL": "bliny_semga"},
+        {"nameKey": "dish_tunets", "price": 13.90, "categoryKey": "category_salads", "descKey": "dish_tunets_desc", "imageURL": "tunets"},
+        {"nameKey": "dish_ptichye_moloko", "price": 9.50, "categoryKey": "category_desserts", "descKey": "dish_ptichye_moloko_desc", "imageURL": "ptichye_moloko"},
+        {"nameKey": "dish_smuzi", "price": 8.00, "categoryKey": "category_drinks", "descKey": "dish_smuzi_desc", "imageURL": "smuzi"},
+        {"nameKey": "dish_sup_pure", "price": 9.50, "categoryKey": "category_soups", "descKey": "dish_sup_pure_desc", "imageURL": "sup_pure"},
+        {"nameKey": "dish_svinina", "price": 16.90, "categoryKey": "category_main_dishes", "descKey": "dish_svinina_desc", "imageURL": "svinina"},
+        {"nameKey": "dish_pancake", "price": 9.00, "categoryKey": "category_desserts", "descKey": "dish_pancake_desc", "imageURL": "pancake"},
+        {"nameKey": "dish_mors_brusnika", "price": 6.00, "categoryKey": "category_drinks", "descKey": "dish_mors_brusnika_desc", "imageURL": "mors_brusnika"},
+        {"nameKey": "dish_brusketta", "price": 8.90, "categoryKey": "category_appetizers", "descKey": "dish_brusketta_desc", "imageURL": "brusketta"}
+      ]
+    }
+  ]
+}
